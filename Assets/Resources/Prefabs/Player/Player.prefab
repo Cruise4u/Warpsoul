@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 114373670154246226}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1797482658447014}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.016, y: 0.299, z: -1.4434149}
+  m_LocalPosition: {x: 0.01, y: -0.16, z: -1.4434149}
   m_LocalScale: {x: 0.1443415, y: 0.1443415, z: 0.1443415}
   m_Children: []
   m_Father: {fileID: 4685649245316890}
@@ -99,8 +99,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1738858871603140}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.9, y: -3.59, z: -0.024410946}
-  m_LocalScale: {x: 6.9280143, y: 6.9280143, z: 6.9280143}
+  m_LocalPosition: {x: -0.29, y: -3.53, z: -0.024410946}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4204007409769830}
   - {fileID: 4206836056043474}
@@ -158,7 +158,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 1.3608637
+  m_Mass: 1.8145839
   m_LinearDrag: 0.1
   m_AngularDrag: 0
   m_GravityScale: 4
@@ -179,9 +179,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01, y: -0.065}
+  m_Offset: {x: -0.03, y: -0.32}
   serializedVersion: 2
-  m_Radius: 0.095
+  m_Radius: 0.76
 --- !u!81 &81890299126492874
 AudioListener:
   m_ObjectHideFlags: 1
@@ -219,15 +219,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"HUD Manager","value":null,"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Player
+    _json: '{"declarations":{"collection":{"$content":[{"name":"isPlayerAboveEnemy","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HUD
+      Manager","value":null,"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Player
       Animator","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Player
       Transform","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Player
       rigidbody","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"HUD
       Full Hearth","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"HUD
-      Empty Hearth","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"playerAlive","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Block
-      Input","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Mouse
-      Position","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"$version":"A"},{"name":"isTouchingEnemy","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Dimensional
-      Gem","value":null,"$version":"A"},{"name":"Dimensional Aura","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Empty Hearth","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Dimensional
+      Gem","value":null,"$version":"A"},{"name":"Dimensional Aura","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"isOnDoor","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Enemy
+      Transform","value":null,"$version":"A"},{"name":"enemyRB","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1738858871603140}
     - {fileID: 95364126193176386}
